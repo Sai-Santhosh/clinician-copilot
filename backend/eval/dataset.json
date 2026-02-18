@@ -1,0 +1,102 @@
+[
+  {
+    "id": "eval_001",
+    "transcript": "Patient is a 35-year-old male presenting with symptoms of depression for the past 3 months. He reports feeling sad most of the day, nearly every day. Sleep has been poor - he wakes up at 3 AM and cannot fall back asleep. Appetite is decreased with 10 lb weight loss. He denies suicidal ideation but admits to feeling hopeless. He has a history of one previous depressive episode 5 years ago which responded well to sertraline. Patient works as an accountant and reports increased work stress. He is married with two children. No current medications. No alcohol or substance use. Mental status exam shows psychomotor retardation, flat affect, and poor eye contact.",
+    "expected": {
+      "diagnoses": ["Major Depressive Disorder", "MDD"],
+      "medications": ["sertraline", "SSRI"],
+      "safety_concerns": ["hopelessness", "sleep disturbance"],
+      "key_symptoms": ["sad", "sleep", "weight loss", "hopeless", "anhedonia"]
+    }
+  },
+  {
+    "id": "eval_002",
+    "transcript": "Patient is a 28-year-old female with chief complaint of anxiety and panic attacks. She describes episodes of sudden intense fear with palpitations, sweating, trembling, and fear of dying. These episodes occur 2-3 times per week and last about 10-15 minutes. She has started avoiding crowded places due to fear of having an attack. She reports constant worry about when the next attack will occur. No history of trauma. She works as a teacher and the attacks have started affecting her ability to teach. Currently taking birth control pills only. She drinks 4-5 cups of coffee daily. Family history positive for anxiety in mother.",
+    "expected": {
+      "diagnoses": ["Panic Disorder", "Agoraphobia"],
+      "medications": ["SSRI", "benzodiazepine"],
+      "safety_concerns": ["avoidance behavior", "functional impairment"],
+      "key_symptoms": ["panic attacks", "palpitations", "fear of dying", "avoidance", "worry"]
+    }
+  },
+  {
+    "id": "eval_003",
+    "transcript": "Patient is a 45-year-old male with bipolar I disorder, currently in a manic episode. He has not slept for 3 days but reports feeling energetic and euphoric. He has been spending money excessively, maxing out credit cards on 'investment opportunities.' Speech is pressured and difficult to interrupt. He reports racing thoughts and grandiose beliefs that he will become a millionaire. Wife brought him in due to concerns about his behavior. He is currently on lithium 900mg daily but admits to stopping it 2 weeks ago because he 'felt too good.' Lithium level from last month was 0.6. No suicidal or homicidal ideation. History of 3 previous manic episodes.",
+    "expected": {
+      "diagnoses": ["Bipolar I Disorder", "Manic Episode"],
+      "medications": ["lithium", "mood stabilizer", "antipsychotic"],
+      "safety_concerns": ["medication non-adherence", "impulsive spending", "no sleep"],
+      "key_symptoms": ["no sleep", "euphoric", "spending", "pressured speech", "grandiosity", "racing thoughts"]
+    }
+  },
+  {
+    "id": "eval_004",
+    "transcript": "Patient is a 22-year-old college student presenting with symptoms of ADHD. She reports difficulty concentrating in lectures, frequently losing items, and failing to complete assignments on time. These symptoms have been present since childhood but are now significantly impacting her academic performance. She was previously diagnosed with ADHD at age 10 but never treated. She reports restlessness and difficulty sitting through exams. Sleep is adequate. No mood symptoms. No substance use except occasional alcohol on weekends. She is seeking treatment to help with her studies. Academic records show declining grades over past year.",
+    "expected": {
+      "diagnoses": ["ADHD", "Attention Deficit Hyperactivity Disorder"],
+      "medications": ["stimulant", "methylphenidate", "amphetamine"],
+      "safety_concerns": ["academic impairment"],
+      "key_symptoms": ["concentration", "losing items", "assignments", "restlessness"]
+    }
+  },
+  {
+    "id": "eval_005",
+    "transcript": "Patient is a 60-year-old female presenting with symptoms consistent with generalized anxiety disorder. She reports excessive worry about multiple areas of life including health, finances, and family for the past year. She has difficulty controlling the worry. Associated symptoms include muscle tension, fatigue, difficulty concentrating, and sleep disturbance. She retired 2 years ago and symptoms began shortly after. No panic attacks. No specific phobias. Medical history includes hypertension controlled with lisinopril. She drinks one glass of wine with dinner. No history of trauma. GAD-7 score of 15.",
+    "expected": {
+      "diagnoses": ["Generalized Anxiety Disorder", "GAD"],
+      "medications": ["SSRI", "SNRI", "buspirone"],
+      "safety_concerns": [],
+      "key_symptoms": ["worry", "muscle tension", "fatigue", "concentration", "sleep"]
+    }
+  },
+  {
+    "id": "eval_006",
+    "transcript": "Patient is a 32-year-old veteran presenting with PTSD symptoms following combat deployment 4 years ago. He reports intrusive memories of a specific incident where his vehicle was struck by an IED. He has nightmares 3-4 times per week. He avoids news about the military and crowded places. He is hypervigilant and has an exaggerated startle response. He reports feeling detached from family and friends. He has difficulty experiencing positive emotions. Sleep is poor due to nightmares. He reports irritability and occasional angry outbursts. He denies suicidal ideation but admits to passive thoughts of 'not wanting to be here.' He has been drinking 6-8 beers nightly to help with sleep.",
+    "expected": {
+      "diagnoses": ["PTSD", "Post-Traumatic Stress Disorder", "Alcohol Use Disorder"],
+      "medications": ["SSRI", "prazosin"],
+      "safety_concerns": ["passive suicidal ideation", "alcohol use", "angry outbursts"],
+      "key_symptoms": ["intrusive memories", "nightmares", "avoidance", "hypervigilant", "detached", "drinking"]
+    }
+  },
+  {
+    "id": "eval_007",
+    "transcript": "Patient is a 19-year-old female presenting with first episode psychosis. Her parents report she has been acting strangely for the past 3 months, becoming increasingly isolated. She believes her professors are conspiring against her and that her phone is being monitored. She reports hearing voices commenting on her behavior. She has not been eating well due to beliefs that her food is poisoned. She dropped out of college last month. No prior psychiatric history. No substance use per patient and parents. Family history positive for schizophrenia in paternal uncle. She appears guarded during interview with poor eye contact.",
+    "expected": {
+      "diagnoses": ["Schizophrenia", "Psychotic Disorder", "First Episode Psychosis"],
+      "medications": ["antipsychotic", "risperidone", "olanzapine"],
+      "safety_concerns": ["paranoid delusions", "not eating", "isolation", "functional decline"],
+      "key_symptoms": ["isolated", "paranoid", "voices", "delusions", "not eating"]
+    }
+  },
+  {
+    "id": "eval_008",
+    "transcript": "Patient is a 40-year-old male with a history of alcohol use disorder, currently in early recovery. He completed a 30-day residential program 2 weeks ago. He reports cravings, especially in the evenings. He has attended 5 AA meetings in the past week. He reports anxiety about returning to work where colleagues often drink socially. Sleep has improved since treatment. He is motivated to maintain sobriety - his wife threatened divorce if he drinks again. He has a sponsor and is working on step 1. No other substance use. History of one alcohol-related seizure during a previous detox. Currently on naltrexone 50mg daily and gabapentin 300mg TID.",
+    "expected": {
+      "diagnoses": ["Alcohol Use Disorder", "AUD"],
+      "medications": ["naltrexone", "gabapentin", "acamprosate"],
+      "safety_concerns": ["relapse risk", "seizure history", "cravings"],
+      "key_symptoms": ["cravings", "anxiety", "early recovery"]
+    }
+  },
+  {
+    "id": "eval_009",
+    "transcript": "Patient is a 17-year-old male brought in by parents for evaluation of possible depression. He has been isolating in his room, grades have dropped significantly, and he quit the soccer team. Parents found a note in his room expressing thoughts of suicide. When interviewed alone, patient admits to cutting on his forearms for the past 6 months, showing multiple healed scars. He reports feeling empty and hopeless. He has thought about overdosing on medications. He has access to his mother's prescription medications at home. He reports being bullied at school. No prior psychiatric treatment. He agrees to a safety plan but appears ambivalent.",
+    "expected": {
+      "diagnoses": ["Major Depressive Disorder", "Non-Suicidal Self-Injury"],
+      "medications": ["SSRI", "fluoxetine"],
+      "safety_concerns": ["suicidal ideation", "suicide note", "self-harm", "access to medications", "plan to overdose"],
+      "key_symptoms": ["isolating", "grades dropped", "cutting", "hopeless", "suicidal thoughts", "bullied"]
+    }
+  },
+  {
+    "id": "eval_010",
+    "transcript": "Patient is a 55-year-old female with a long history of recurrent major depressive disorder. She has tried multiple antidepressants including sertraline, fluoxetine, venlafaxine, and duloxetine with partial response. Currently on duloxetine 60mg with bupropion 300mg XL augmentation. She reports persistent low mood, anhedonia, and fatigue despite medication. PHQ-9 score is 18. She has been in therapy for 2 years. She is considering ECT but is hesitant due to concerns about memory side effects. She works part-time as a librarian. She has supportive family. No suicidal ideation. Medical history includes hypothyroidism on levothyroxine and Type 2 diabetes on metformin.",
+    "expected": {
+      "diagnoses": ["Treatment-Resistant Depression", "Major Depressive Disorder"],
+      "medications": ["ECT", "ketamine", "esketamine", "lithium augmentation", "atypical antipsychotic"],
+      "safety_concerns": [],
+      "key_symptoms": ["low mood", "anhedonia", "fatigue", "treatment resistant"]
+    }
+  }
+]
